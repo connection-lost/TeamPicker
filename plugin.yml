@@ -1,0 +1,23 @@
+name: TeamPicker
+main: me.crafter.mc.TeamPicker.TeamPicker
+version: 1.0
+author: Frank
+
+teampicker.use:
+   default: all
+teampicker.admin:
+   default: op
+   
+commands:
+   teampickercreate:
+      permission: teampicker.admin
+      usage: |
+         /teampickercreate <player> <player>
+   teampickerstart:
+      permission: teampicker.admin
+      usage: |
+         /teampickerstart 
+   pick:
+      permission: teampicker.use
+      usage: |
+         /pick <player>
